@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 using AutoMapper;
@@ -41,6 +43,26 @@ namespace Projeto.Blog.Data.Repository
         {
             K entity = await _collection.Find(Builders<K>.Filter.Eq("_id", new ObjectId(id))).FirstOrDefaultAsync();
             return _mapper.Map<T>(entity);
+        }
+
+        public async Task<string> DeletarPorIdRepository(string id)
+        {
+            await _collection.DeleteOneAsync(Builders<K>.Filter.Eq("_id", new ObjectId(id)));
+            return "Publicação deletada com sucesso!";
+        }
+
+        public async Task<string> AlterarPorIdRepository(T model, string id)
+        {
+            K entity = _mapper.Map<K>(model);
+            await _collection.ReplaceOneAsync(Builders<K>.Filter.Eq("_id", new ObjectId(id)), entity);
+            return "Publicação alterada com sucesso!";
+        }
+
+        public async Task<string> AdicionarRepository(T model)
+        {
+            K entity = _mapper.Map<K>(model);
+            await _collection.InsertOneAsync(entity);
+            return "Adicionado com sucesso!";
         }
     }
 }

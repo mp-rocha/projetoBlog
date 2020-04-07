@@ -124,3 +124,5 @@ C:\Users\mpaul\source\repos\App\ProjetoBlog\ProjetoBlog\Project.Blog.Api\bin\Deb
 C:\Users\mpaul\source\repos\App\ProjetoBlog\ProjetoBlog\Project.Blog.Api\obj\Debug\netcoreapp3.1\Project.Blog.Api.csproj.CoreCompileInputs.cache
 C:\Users\mpaul\source\repos\App\ProjetoBlog\ProjetoBlog\Project.Blog.Api\obj\Debug\netcoreapp3.1\Project.Blog.Api.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\mpaul\source\repos\App\ProjetoBlog\ProjetoBlog\Project.Blog.Api\obj\Debug\netcoreapp3.1\Project.Blog.Api.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\mpaul\source\repos\App\ProjetoBlog\ProjetoBlog\Project.Blog.Api\bin\Debug\netcoreapp3.1\EPPlus.dll
+C:\Users\mpaul\source\repos\App\ProjetoBlog\ProjetoBlog\Project.Blog.Api\bin\Debug\netcoreapp3.1\System.Xml.XPath.XmlDocument.dll

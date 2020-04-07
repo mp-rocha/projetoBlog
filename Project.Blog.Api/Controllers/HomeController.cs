@@ -42,5 +42,27 @@ namespace Project.Blog.Api.Controllers
             var response = await _servicePublicacao.BuscarPorIdService(id);
             return Ok(response);
         }
+
+        [HttpDelete]
+        public async Task<IActionResult> DeletarPublicacaoPorId(Model.Publicacao model)
+        {
+            var response = await _servicePublicacao.DeletarPorIdService(model.Id);
+            return Ok(response);
+        }
+
+        [HttpPut]
+        public async Task<IActionResult> AlterarPublicacaoPorId(Model.Publicacao model)
+        {
+            var response = await _servicePublicacao.AlterarPublicacaoService(model, model.Id);
+            return Ok(response);
+        }
+
+        [HttpPost]
+        [Route("Publicacao")]
+        public async Task<IActionResult> AdicionarPublicacao(Model.Publicacao model)
+        {
+            var response = await _servicePublicacao.AdicionarPublicacaoService(model);
+            return Ok(response);
+        }
     }
 }

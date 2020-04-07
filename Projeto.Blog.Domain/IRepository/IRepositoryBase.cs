@@ -10,5 +10,11 @@ namespace Projeto.Blog.Domain.IRepository
         Task<List<T>> BuscarTodosRepository();
 
         Task<T> BuscarPorIdRepository(string id);
+
+        Task<string> DeletarPorIdRepository(string id);
+
+        Task<string> AlterarPorIdRepository(T model, string id);
+
+        Task<string> AdicionarRepository(T model);
     }
 }

@@ -2,10 +2,12 @@
 using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
+using MongoDB.Bson;
 using MongoDB.Driver.Core.WireProtocol.Messages;
 using Projeto.Blog.Domain.IRepository;
 using Projeto.Blog.Domain.IService;
 using Projeto.Blog.Domain.Models;
+using Swashbuckle.Swagger.Model;
 
 namespace Projeto.Blog.Service.Service
 {
@@ -30,6 +32,25 @@ namespace Projeto.Blog.Service.Service
             response = await _unitOfWork.RepositoryPublicacao.BuscarPorIdRepository(id);
             return response;
         }
-    }
 
+        public async Task<string> DeletarPorIdService(string id)
+        {
+            var response = await _unitOfWork.RepositoryPublicacao.DeletarPorIdRepository(id);
+            return response;
+        }
+
+        public async Task<string> AlterarPublicacaoService(Publicacao model, string id)
+        {
+            var response = await _unitOfWork.RepositoryPublicacao.AlterarPorIdRepository(model, id);
+            return response;
+        }
+
+        public async Task<string> AdicionarPublicacaoService(Publicacao model)
+        {
+            model.Id = ObjectId.GenerateNewId().ToString();
+            var response = await _unitOfWork.RepositoryPublicacao.AdicionarRepository(model);
+            
+            return response;
+        }
+    }
 }
