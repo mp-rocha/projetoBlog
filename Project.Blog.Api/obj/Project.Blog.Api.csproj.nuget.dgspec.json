@@ -1,0 +1,398 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\mpaul\\source\\repos\\App\\ProjetoBlog\\ProjetoBlog\\Project.Blog.Api\\Project.Blog.Api.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\mpaul\\source\\repos\\App\\ProjetoBlog\\ProjetoBlog\\Project.Blog.Api\\Project.Blog.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\mpaul\\source\\repos\\App\\ProjetoBlog\\ProjetoBlog\\Project.Blog.Api\\Project.Blog.Api.csproj",
+        "projectName": "Project.Blog.Api",
+        "projectPath": "C:\\Users\\mpaul\\source\\repos\\App\\ProjetoBlog\\ProjetoBlog\\Project.Blog.Api\\Project.Blog.Api.csproj",
+        "packagesPath": "C:\\Users\\mpaul\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mpaul\\source\\repos\\App\\ProjetoBlog\\ProjetoBlog\\Project.Blog.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\mpaul\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\mpaul\\source\\repos\\App\\ProjetoBlog\\ProjetoBlog\\Projeto.Blog.Data\\Projeto.Blog.Data.csproj": {
+                "projectPath": "C:\\Users\\mpaul\\source\\repos\\App\\ProjetoBlog\\ProjetoBlog\\Projeto.Blog.Data\\Projeto.Blog.Data.csproj"
+              },
+              "C:\\Users\\mpaul\\source\\repos\\App\\ProjetoBlog\\ProjetoBlog\\Projeto.Blog.Domain\\Projeto.Blog.Domain.csproj": {
+                "projectPath": "C:\\Users\\mpaul\\source\\repos\\App\\ProjetoBlog\\ProjetoBlog\\Projeto.Blog.Domain\\Projeto.Blog.Domain.csproj"
+              },
+              "C:\\Users\\mpaul\\source\\repos\\App\\ProjetoBlog\\ProjetoBlog\\Projeto.Blog.Service\\Projeto.Blog.Service.csproj": {
+                "projectPath": "C:\\Users\\mpaul\\source\\repos\\App\\ProjetoBlog\\ProjetoBlog\\Projeto.Blog.Service\\Projeto.Blog.Service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "AspNetCore.HealthChecks.MongoDb": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
+            "Microsoft.Extensions.Diagnostics.HealthChecks": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.10.8, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "MongoDB.Bson": {
+              "target": "Package",
+              "version": "[2.10.2, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.10.2, )"
+            },
+            "MongoDB.Driver.Core": {
+              "target": "Package",
+              "version": "[2.10.2, )"
+            },
+            "Swagger": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Swashbuckle.AspNetCore.Swagger": {
+              "target": "Package",
+              "version": "[5.3.1, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerUI": {
+              "target": "Package",
+              "version": "[5.3.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\mpaul\\source\\repos\\App\\ProjetoBlog\\ProjetoBlog\\Projeto.Blog.Data\\Projeto.Blog.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\mpaul\\source\\repos\\App\\ProjetoBlog\\ProjetoBlog\\Projeto.Blog.Data\\Projeto.Blog.Data.csproj",
+        "projectName": "Projeto.Blog.Data",
+        "projectPath": "C:\\Users\\mpaul\\source\\repos\\App\\ProjetoBlog\\ProjetoBlog\\Projeto.Blog.Data\\Projeto.Blog.Data.csproj",
+        "packagesPath": "C:\\Users\\mpaul\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mpaul\\source\\repos\\App\\ProjetoBlog\\ProjetoBlog\\Projeto.Blog.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\mpaul\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\mpaul\\source\\repos\\App\\ProjetoBlog\\ProjetoBlog\\Projeto.Blog.Domain\\Projeto.Blog.Domain.csproj": {
+                "projectPath": "C:\\Users\\mpaul\\source\\repos\\App\\ProjetoBlog\\ProjetoBlog\\Projeto.Blog.Domain\\Projeto.Blog.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "AspNetCore.HealthChecks.MongoDb": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.Extensions.Diagnostics.HealthChecks": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            },
+            "MongoDB.Bson": {
+              "target": "Package",
+              "version": "[2.10.2, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.10.2, )"
+            },
+            "MongoDB.Driver.Core": {
+              "target": "Package",
+              "version": "[2.10.2, )"
+            },
+            "Swagger": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Swashbuckle.AspNetCore.Swagger": {
+              "target": "Package",
+              "version": "[5.3.1, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerUI": {
+              "target": "Package",
+              "version": "[5.3.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\mpaul\\source\\repos\\App\\ProjetoBlog\\ProjetoBlog\\Projeto.Blog.Domain\\Projeto.Blog.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\mpaul\\source\\repos\\App\\ProjetoBlog\\ProjetoBlog\\Projeto.Blog.Domain\\Projeto.Blog.Domain.csproj",
+        "projectName": "Projeto.Blog.Domain",
+        "projectPath": "C:\\Users\\mpaul\\source\\repos\\App\\ProjetoBlog\\ProjetoBlog\\Projeto.Blog.Domain\\Projeto.Blog.Domain.csproj",
+        "packagesPath": "C:\\Users\\mpaul\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mpaul\\source\\repos\\App\\ProjetoBlog\\ProjetoBlog\\Projeto.Blog.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\mpaul\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "AspNetCore.HealthChecks.MongoDb": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
+            "Microsoft.Extensions.Diagnostics.HealthChecks": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            },
+            "MongoDB.Bson": {
+              "target": "Package",
+              "version": "[2.10.2, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.10.2, )"
+            },
+            "MongoDB.Driver.Core": {
+              "target": "Package",
+              "version": "[2.10.2, )"
+            },
+            "Swagger": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Swashbuckle.AspNetCore.Swagger": {
+              "target": "Package",
+              "version": "[5.3.1, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerUI": {
+              "target": "Package",
+              "version": "[5.3.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\mpaul\\source\\repos\\App\\ProjetoBlog\\ProjetoBlog\\Projeto.Blog.Service\\Projeto.Blog.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\mpaul\\source\\repos\\App\\ProjetoBlog\\ProjetoBlog\\Projeto.Blog.Service\\Projeto.Blog.Service.csproj",
+        "projectName": "Projeto.Blog.Service",
+        "projectPath": "C:\\Users\\mpaul\\source\\repos\\App\\ProjetoBlog\\ProjetoBlog\\Projeto.Blog.Service\\Projeto.Blog.Service.csproj",
+        "packagesPath": "C:\\Users\\mpaul\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mpaul\\source\\repos\\App\\ProjetoBlog\\ProjetoBlog\\Projeto.Blog.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\mpaul\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\mpaul\\source\\repos\\App\\ProjetoBlog\\ProjetoBlog\\Projeto.Blog.Domain\\Projeto.Blog.Domain.csproj": {
+                "projectPath": "C:\\Users\\mpaul\\source\\repos\\App\\ProjetoBlog\\ProjetoBlog\\Projeto.Blog.Domain\\Projeto.Blog.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "AspNetCore.HealthChecks.MongoDb": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
+            "Microsoft.Extensions.Diagnostics.HealthChecks": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            },
+            "MongoDB.Bson": {
+              "target": "Package",
+              "version": "[2.10.2, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.10.2, )"
+            },
+            "MongoDB.Driver.Core": {
+              "target": "Package",
+              "version": "[2.10.2, )"
+            },
+            "Swagger": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Swashbuckle.AspNetCore.Swagger": {
+              "target": "Package",
+              "version": "[5.3.1, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerUI": {
+              "target": "Package",
+              "version": "[5.3.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
